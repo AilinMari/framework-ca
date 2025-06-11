@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/vite.svg" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+  </head>
+  <body class="bg-pink-50 min-h-screen">
+    <nav
+      class="bottom-0 left-0 w-full bg-white border-t border-pink-100 shadow-lg flex justify-around items-center py-4 z-50 gap-8 mb-6"
+    >
+      <a
+        href="/index.html"
+        class="relative flex flex-col items-center text-pink-600 font-semibold hover:text-pink-800 transition"
+      >
+        <span>Login</span>
+      </a>
+      <a
+        href="/feed/index.html"
+        class="relative flex flex-col items-center text-pink-600 font-semibold hover:text-pink-800 transition"
+      >
+        <span>Feed</span>
+      </a>
+      <a
+        href="/profile/index.html"
+        class="relative flex flex-col items-center text-pink-600 font-semibold hover:text-pink-800 transition"
+      >
+        <span>Profile</span>
+      </a>
+    </nav>
+
+    <main class="bg-pink-50 flex justify-center">
+      <section class="bg-white rounded-lg shadow-lg w-full max-w-sm p-8 ">
+        <div class="flex flex-col ">
+          <img
+            src="/images/placeholder.jpg"
+            alt="Profilbilde"
+            class="w-20 h-20 max-w-xs rounded-xl object-cover mx-auto mb-6"
+          />
+          <div class="text-center space-y-4">
+            <h1 class="text-3xl font-bold text-pink-600 mb-4">Username</h1>
+            <button
+              class="bg-pink-600 text-white px-6 py-2 rounded-md hover:bg-pink-700 transition font-semibold"
+            >
+              follow
+            </button>
+          </div>
+        </div>
+        <hr class="my-10 border-gray-200 mt-6" />
+        <div class="space-y-8">
+
+          <div
+            class="bg-white rounded-lg overflow-hidden shadow hover:shadow-lg transition mt-6"
+          >
+            <img
+              src="/images/placeholder2.jpg"
+              alt="Post"
+              class="w-full h-32 object-cover"
+            />
+          </div>
+          <!-- Dupliser blokk for flere innlegg -->
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
