@@ -469,6 +469,15 @@ video {
 .mb-6 {
   margin-bottom: 1.5rem;
 }
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-15 {
+  margin-bottom: 3.75rem;
+}
+
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -480,6 +489,9 @@ video {
 }
 .mt-6 {
   margin-top: 1.5rem;
+}
+.mt-10 {
+  margin-top: 2.5rem;
 }
 .box-border {
   box-sizing: border-box;

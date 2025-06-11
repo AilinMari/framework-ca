@@ -9,11 +9,11 @@
   </head>
   <body class="bg-pink-50 min-h-screen">
     <nav
-      class="bottom-0 left-0 w-full bg-white border-t border-pink-100 shadow-lg flex justify-around items-center py-4 z-50 gap-8 mb-6"
+      class="bottom-0 left-0 w-full bg-white border-t border-pink-100 shadow-lg flex justify-around items-center py-4 z-50 gap-8 mb-15"
     >
       <a
         href="/index.html"
-        class="relative flex flex-col items-center text-pink-600 font-semibold hover:text-pink-800 transition"
+        class="relative flex flex-col items-center text-pink-600 font-bold hover:text-pink-800 transition"
       >
         <span>Login</span>
       </a>
@@ -33,12 +33,12 @@
 
     <main class="bg-pink-50 flex justify-center">
       <div
-        class="bg-white p-8 rounded-lg shadow-lg w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl md:p-12 xl:p-16 "
+        class="bg-white p-8 rounded-lg shadow-lg w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl md:p-12 xl:p-16"
       >
         <h1 class="text-5xl font-bold mb-10 text-pink-600 text-center">
           Login
         </h1>
-        <form action="/profile/index.html" method="POST" class="space-y-8">
+        <form action="/profile/index.html" method="GET" class="space-y-8">
           <div class="flex flex-col gap-3 mt-6">
             <label for="email" class="text-sm font-medium text-gray-700 mb-2"
               >E-post</label
@@ -61,7 +61,7 @@
               type="password"
               minlength="8"
               required
-              class="block w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500 "
+              class="block w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
             />
           </div>
           <button
