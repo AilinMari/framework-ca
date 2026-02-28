@@ -620,6 +620,10 @@ video {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .h-20 {
   height: 5rem;
 }
