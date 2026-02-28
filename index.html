@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <body class="bg-pink-50 min-h-screen">
+    <nav
+      class="bottom-0 left-0 w-full bg-white border-t border-pink-100 shadow-lg flex justify-around items-center py-4 z-50 gap-8 mb-6"
+    >
+      <a
+        href="/index.html"
+        class="relative flex flex-col items-center text-pink-600 font-bold hover:text-pink-800 transition"
+      >
+        <span>Login</span>
+      </a>
+      <a
+        href="/feed/index.html"
+        class="relative flex flex-col items-center text-pink-600 font-semibold hover:text-pink-800 transition"
+      >
+        <span>Feed</span>
+      </a>
+      <a
+        href="/profile/index.html"
+        class="relative flex flex-col items-center text-pink-600 font-semibold hover:text-pink-800 transition"
+      >
+        <span>Profile</span>
+      </a>
+    </nav>
+
+    <main class="bg-pink-50 flex justify-center">
+      <div
+        class="bg-white p-8 rounded-lg shadow-lg w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl md:p-12 xl:p-16"
+      >
+        <h1 class="text-5xl font-bold mb-10 text-pink-600 text-center">
+          Login
+        </h1>
+        <form action="/profile/index.html" method="GET" class="space-y-8">
+          <div class="flex flex-col gap-3 mt-6">
+            <label for="email" class="text-sm font-medium text-gray-700 mb-2"
+              >E-post</label
+            >
+            <input
+              id="email"
+              name="email"
+              type="email"
+              required
+              class="block w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
+            />
+          </div>
+          <div class="flex flex-col gap-3 mt-6">
+            <label for="password" class="text-sm font-medium text-gray-700 mb-2"
+              >Passord</label
+            >
+            <input
+              id="password"
+              name="password"
+              type="password"
+              minlength="8"
+              required
+              class="block w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
+            />
+          </div>
+          <button
+            type="submit"
+            class="w-full bg-pink-600 text-white py-3 px-6 text-lg rounded-md hover:bg-pink-700 transition font-bold mt-6 mb-6"
+          >
+            Send
+          </button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
